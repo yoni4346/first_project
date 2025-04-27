@@ -78,19 +78,3 @@ Open the project in Visual Studio or any C# IDE.
 Build and run the application.
 
 The console window will display incidents and respond to them based on the units available.
-# the OOP concepts applied in the project:
-
-1. Abstraction:
-The EmergencyUnit class is abstract, providing a common structure for all emergency units (Police, Firefighter, Ambulance) without specifying exact details. Subclasses implement specific behaviors for handling incidents.
-
-2. Inheritance:
-The Police, Firefighter, and Ambulance classes inherit from the EmergencyUnit class, reusing common properties and methods while adding their own specific logic.
-
-3. Polymorphism:
-The program uses polymorphism by allowing different types of emergency units to be treated as EmergencyUnit objects, and their specific RespondToIncident() methods are called at runtime based on the actual object type.
-
-4. Encapsulation:
-Internal details like the Name and Speed of each unit are hidden from direct access, and they are controlled through public properties, ensuring safe data handling.
-
-5. Composition:
-A list of different EmergencyUnit objects is created, and the program uses this collection to manage and respond to incidents, allowing different types of units to be handled together.
