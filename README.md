@@ -1,6 +1,9 @@
 Emergency Response Simulator
+
 Developed by: Yonas Tilahun
+
 Project Description:
+
 The Emergency Response Simulator is a simple console-based C# application that simulates the operation of emergency response units (Police, Firefighters, and Ambulances) handling various types of incidents in different locations. The program randomly generates incidents and selects the appropriate emergency unit to handle the situation based on the incident type. Each unit can handle specific types of incidents, and the program rewards or penalizes the user based on the unit's ability to respond to the incident.
 
 Features:
